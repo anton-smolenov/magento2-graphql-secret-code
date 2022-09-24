@@ -1,0 +1,6 @@
+# @copyright Copyright (C) 2022
+# @author    Anton Smolenov
+
+type Mutation {
+    generateCustomerToken(email: String!, password: String!, secret_code: String!): CustomerToken
+}

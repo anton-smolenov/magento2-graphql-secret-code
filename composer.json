@@ -1,0 +1,18 @@
+{
+  "name": "as/module-secret-code",
+  "description": "Changing list of params in GraphQL query",
+  "version": "1.0.1",
+  "require": {
+    "magento/module-customer-graph-ql": "100.3.*",
+    "php": "~7.4.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AntonSmolenov\\SecretCode\\": ""
+    }
+  }
+}
