@@ -47,27 +47,27 @@ class AddCustomerAttributeSecretCode implements DataPatchInterface
     /**
      * @var EavSetupFactory
      */
-    private EavSetupFactory $eavSetupFactory;
+    private $eavSetupFactory;
 
     /**
      * @var ModuleDataSetupInterface
      */
-    private ModuleDataSetupInterface $moduleDataSetup;
+    private $moduleDataSetup;
 
     /**
      * @var Config
      */
-    private Config $eavConfig;
+    private $eavConfig;
 
     /**
      * @var AttributeSetFactory
      */
-    private AttributeSetFactory $attributeSetFactory;
+    private $attributeSetFactory;
 
     /**
      * @var LoggerInterface
      */
-    private LoggerInterface $logger;
+    private $logger;
 
     /**
      * AddCustomerAttributeSecretCode constructor.

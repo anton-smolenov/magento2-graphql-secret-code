@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "require": {
     "magento/module-customer-graph-ql": "100.3.*",
-    "php": "~7.4.0"
+    "php": "~7.3.0"
   },
   "type": "magento2-module",
   "autoload": {

@@ -29,12 +29,12 @@ class SecretCode
     /**
      * @var CustomerRegistry
      */
-    private CustomerRegistry $customerRegistry;
+    private $customerRegistry;
 
     /**
      * @var LoggerInterface
      */
-    private LoggerInterface $logger;
+    private $logger;
 
     /**
      * SecretCode constructor.
